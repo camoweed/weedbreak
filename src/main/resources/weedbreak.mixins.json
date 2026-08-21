@@ -1,10 +1,10 @@
 {
   "required": true,
-  "package": "turniplabs.examplemod.mixin",
+  "package": "camoweed.weedbreak.mixins",
   "compatibilityLevel": "JAVA_${java}",
   "injectors": {
     "defaultRequire": 1
   },
-  "mixins": [],
+  "mixins": ["PlayerControllerMixin"],
   "client": []
 }

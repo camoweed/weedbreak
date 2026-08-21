@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
+	"id": "weedbreak",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This mod aims to help new BTA modders.",
+	"name": "weedbreak",
+	"description": "Increases mining speed by reducing the delay between hits. Based on melonbreak.",
 	"authors": [
-		"Turnip Labs"
+		"camoweed_"
 	],
 	"contact": {
 		"homepage": "",
@@ -15,13 +15,9 @@
 	"license": "CC0-1.0",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"turniplabs.examplemod.ExampleMod"
-		]
+		"main": ["camoweed.weedbreak.WeedBreak"]
 	},
-	"mixins": [
-		"examplemod.mixins.json"
-	],
+	"mixins": ["weedbreak.mixins.json"],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
 		"minecraft": "*",
